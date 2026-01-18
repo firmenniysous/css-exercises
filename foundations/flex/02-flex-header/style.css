@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 8px;
 }
 
 .logo {
@@ -20,7 +21,8 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 1.5em;
-
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -29,8 +31,4 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-}
-
-div.right-links {
-  margin-right: 3%;
 }
