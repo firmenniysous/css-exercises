@@ -12,20 +12,25 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 
 .container {
   display: flex;
   justify-content: space-evenly;
-  gap: 10px;
+  gap: 32px;
 }
 
 .info {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  flex: 0 1 210px;
-  gap: 20px;
+  flex: 0 1 200px;
+  gap: 10px;
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
